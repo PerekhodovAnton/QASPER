@@ -37,7 +37,7 @@ RuQASPER provides a pipeline for creating dataset extensions in Russian. The mai
 
 The code for creating custom extensions for the dataset in .csv format is provided in dataset_building folder of this repo. The pdf_to_df.ipynb notebook can be used to initially parse texts in .pdf format. After that, get_qas_gpt.ipynb can be used to generate the QA part of the dataset. The latter is saved as as .csv file and can be merged with the main RuQASPER csv. 
 
-![alt text][https://github.com/PerekhodovAnton/QASPER/blob/main/img/dataset_extension.png]
+![alt text](https://github.com/PerekhodovAnton/QASPER/blob/main/img/dataset_extension.png)
 
 ## Running Model and Benchmark 
 Scripts to run the model and updated LongBench benchmark can be found in longbench.ipynb. It is recommended to launch the script with at least 80 GB VRAM avaliable. A web interface for the model is also provided in qasper_interface.ipynb. Metrics can be evaluated with scores.ipynb. 
